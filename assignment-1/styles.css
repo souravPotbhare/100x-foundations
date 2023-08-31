@@ -1,0 +1,56 @@
+body {
+  background-color: #FAF1E4;
+  font-family: Helvetica, Sans-serif;
+}
+
+h1 {
+  color: Red;
+}
+
+h1:hover {
+  color: blue;
+}
+
+.home {
+  background-color : #9EB384;
+  /* margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10%;
+  margin-bottom: 10%; */
+  margin: 5% 15%;
+  padding: 5%;
+  border-radius: 10px;
+}
+
+.list {
+  background-color : #CEDEBD;
+  display: flex;
+  /* margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%; */
+  margin: 0% 5% 10% 5%;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.ul-list {
+  display: flex;
+  list-style-type: none;
+
+}
+
+.li {
+    margin-right: 5%;
+}
+
+.list-item {
+  color: white;
+  margin: 5%;
+  padding: 5%;
+  /* display: flex; */
+  border-radius: 10px;
+  width: 350px;
+  height: 350px;
+  background-color: #435334;
+}
